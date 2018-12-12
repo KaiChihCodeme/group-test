@@ -1,0 +1,13 @@
+新增到暫存
+git add ??? or git add .(all)
+新增到註解
+git commit -m "your message"
+新增到git hub(遠端)
+第一次 git push -u origin master(追蹤遠端分支，第一次打就好了)
+之後 git push origin master
+
+pull東西下來
+git pull origin master
+
+下載整個github的檔案到畚箕
+git clone 網址
