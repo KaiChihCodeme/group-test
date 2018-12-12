@@ -1,13 +1,19 @@
+git大概的規則: 本機端 --add--> 暫存區 --commit--> 儲存庫 --push--> 遠端儲存庫(github)
+
 新增到暫存
-git add ??? or git add .(all)
+git add ???(檔名.副檔名) or git add .(all)
+
 新增到註解
 git commit -m "your message"
+
 新增到git hub(遠端)
 第一次 git push -u origin master(追蹤遠端分支，第一次打就好了)
 之後 git push origin master
 
-pull東西下來
+pull東西下來(這是當有人先上傳與你不同的檔案時，你要將它新增的檔案下載下來你才能Push)
 git pull origin master
 
-下載整個github的檔案到畚箕
+下載整個github的檔案到畚箕(這個資料夾是你本機端沒有的，直接下載下來所有檔案以及包含git的所有紀錄，ex:commit histroy etc.)
 git clone 網址
+
+如果有想到我再新增
