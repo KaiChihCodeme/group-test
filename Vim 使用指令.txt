@@ -1,0 +1,10 @@
+Vim會跑出來的時候通常是 直接打git commit or 合併分支要commit的時候會跑出來
+
+Vim會分成兩種模式:
+1. Normal Mode --> 不能改內容，是輸入指令用的。打:w 存檔、:q 不存檔離開、:wq 存檔&&離開  
+               
+                     ｜
+按i會進入insert mode ｜按esc離開insert mode to normal mode　
+                     ｜ 
+
+2. Insert Mode --> 輸入模式
